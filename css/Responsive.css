@@ -1,0 +1,913 @@
+/* Header section */
+
+@media only screen and (max-width: 991px){
+	.banner img{
+		width: 100%;
+	}
+	.menu{
+		font-size: 30px;
+		position: absolute;
+		border: none;
+		color: #fff;
+		right: 15px;
+		top: 15px;
+	}
+	.navbar-light .navbar-toggler {
+	    border: none;
+    }
+    .price-selector{
+    	display: none;
+    }
+    .section-title h3{
+    	font-size: 26px;
+    }
+    .section-title h2{
+    	font-size: 50px;
+    }
+    .section-title p{
+    	font-size: 14px;
+    	line-height: 30px;
+    }
+    .plan-content .col-lg-5{
+    	width: 60%;
+    }
+    .plan-content .col-lg-7{
+    	width: 89%;
+    }
+    .nav-tabs .nav-item h4{
+    	display: none;
+    }
+    .right-info h3{
+    	font-size: 24px;
+    }
+    .right-info p{
+    	font-size: 15px;
+    }
+    .right-info a{
+    	font-size: 13px;
+    }
+    .growth-bg-img img{
+    	margin-left: 0;
+    }
+    .services .servies-img{
+    	margin-left: 30px;	
+    }
+    .services-item h3{
+    	font-size: 26px;
+    }
+    .services-item p{
+    	font-size: 15px;
+    }
+    .services-item a{
+    	font-size: 13px;
+    }
+    .services .services-img-reverse{
+
+    }
+    .section-card{
+    	margin-top: 0;
+    	padding: 30px 0;
+    }
+    .sec-img{
+    	display: none;
+    }
+    .dropdown-menu{
+		background: transparent;
+		border: none;
+		transition: .5s all ease;
+    }
+
+    .dropdown-item{
+		color: #fff;
+		transition: .5s;
+    }
+
+    .dropdown-item:focus, .dropdown-item:hover{
+		background: none;
+		color: #01e4eb;
+    }
+    .inclushape1{
+    	left: 68%;
+        top: 20%;
+    }
+    .inclushape2{
+    	top: 20%;
+    	right: 68%;
+    }
+    .iclushape4{
+    	left: 71%;
+        top: 23%;
+    }
+    .iclushape5{
+    	right: 71%;
+    	top: 23%;
+    }
+    .iclushape3{
+    	top: 26%;
+        left: 50%;
+        width: 129px;
+    }
+    .shape-para{
+    	left: 50%;
+        top: 27%;
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+	.nav-top{
+		display: none;
+	}
+	.banner-left h2{
+		font-size: 38px;
+	}
+	.banner-left h1{
+		font-size: 77px;
+	}
+	.banner-left p{
+		font-size: 22px;
+	}
+	.price-card,
+	.price-card-2{
+		width: 70%;
+		margin: 30px auto;
+	}
+	.inclushape1{
+    	left: 59%;
+        top: 25%
+    }
+    .inclushape2{
+    	top: 25%;
+        right: 59%;
+    }
+    .iclushape4{
+    	left: 60%;
+        top: 29%;
+    }
+    .iclushape5{
+    	right: 60%;
+        top: 29%;
+    }
+    .iclushape3{
+    	top: 34%;
+        left: 50%;
+        width: 132px;
+    }
+    .shape-para{
+    	left: 50%;
+        top: 35%;
+        font-size: 11px;
+    }	
+}
+
+@media only screen and (max-width: 575px) {
+	.navbar-brand span{
+		font-size: 20px;
+	}
+	.menu{
+		font-size: 27px;
+	}
+	.banner-left h2{
+		font-size: 27px;
+	}
+	.banner-left h1{
+		font-size: 58px;
+	}
+	.banner-left p{
+		font-size: 17px;
+	}
+	.banner-left .hero-btn{
+		padding: 6px 11px;
+	}
+	.hero-btn i{
+		left: 6px;
+	}
+	.domain{
+		width: 90%;
+	}
+	.section-title h3{
+		font-size: 22px;
+	}
+	.section-title h2{
+		font-size: 40px;
+	}
+	.domain .hero-btn{
+		display: none;
+	}
+	.section-title h3{
+		font-size: 20px;
+	}
+	.section-title h2{
+		font-size: 36px;
+	}
+	.section-title p{
+		line-height: 25px;
+	}
+	.plan-content ul li{
+		font-size: 14px;
+	}
+	.nav-item .icon{
+		margin: 0 auto;
+	}
+	.left-icon i{
+		font-size: 55px;
+	}
+	.right-info h3{
+		font-size: 20px;
+		margin-bottom: 0;
+		margin-top: 10px;
+	}
+	.right-info p{
+		font-size: 13px;
+		margin-bottom: 0;
+		line-height: 25px;
+	}
+	.right-info a{
+		font-size: 12px;
+		font-weight: 500;
+	}
+	.plan-content .col-lg-5{
+		width: 100%;
+	}
+	.domain-form .form-control{
+		display: none;
+	}
+	.domain-title p{
+		margin-bottom: 0;
+	}
+	.plan-content .hero-btn{
+		padding: 6px 17px;
+		margin-top: 5px;
+        margin-bottom: 0;
+	}
+	.services-item h3{
+		font-size: 20px;
+	}
+	.services-item p{
+		font-size: 13px;
+		font-weight: 400;
+		line-height: 23px;
+		padding-bottom: 0;
+	}
+	.services-item a{
+		font-size: 12px;
+	}
+	.services .services-img-reverse {
+        width: 87%;
+    }
+    .services .servies-img{
+    	width: 300px;
+    }
+    .services-img-middle{
+    	width: 300px;
+    }
+    .testimonial-img{
+    	width: 285px;
+    }
+    .testimonial-info i{
+    	font-size: 18px;
+    }
+    .testimonial-info p{
+    	font-size: 19px;
+    	margin-bottom: 20px;
+    }
+    .testimonial-info h4{
+    	font-size: 25px;
+    }
+    .testimonial-info span{
+    	font-size: 14px;
+    }
+    .sec-info h5{
+    	font-size: 16px;
+    }
+    .sec-info h3{
+    	font-size: 35px;
+    	margin-bottom: 20px;
+    }
+    .sec-info p{
+    	font-size: 14px;
+    }
+    .sec-info .price .dollar{
+    	font-size: 24px;
+    }
+    .sec-info .price{
+    	font-size: 45px;
+    }
+    .sec-info .price span{
+    	font-size: 14px;
+    }
+    .sec-info .hero-btn{
+    	margin-top: 20px;
+        padding: 5px 10px;
+    }
+
+}
+
+/*--------------------------------
+------------About Page------------
+--------------------------------*/
+
+@media only screen and (max-width: 991px) {
+	.header-2{
+		background-attachment: fixed;
+	}
+	.header-2 .banner-left h1{
+		font-size: 65px;
+		text-align: center;
+	}
+	.breadcrumbs{
+		bottom: 156px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.header-2 .banner-left h1{
+		font-size: 63px;
+	}
+	.place h3{
+		font-size: 26px;
+	}
+	.place h2{
+		font-size: 55px;
+	}
+	.place p{
+		font-size: 14px;
+	}
+	.including-text h4{
+		font-size: 23px;
+	}
+	.including-text p{
+		font-size: 16px;
+	}
+	.member-info h4{
+		font-size: 23px;
+	}
+	.member-info span{
+		font-size: 16px;
+	}
+	.section-title p{
+		line-height: 20px;
+	}
+	.testimonial-info p{
+		font-size: 24px;
+	}
+}
+
+@media only screen and (max-width: 570px) {
+	.breadcrumbs{
+		padding: 0 20px;
+	}
+	.header-2 .banner-left h1{
+		font-size: 60px;
+	}
+	.place h3{
+		font-size: 24px;
+	}
+	.place h2{
+		font-size: 48px;
+	}
+}
+
+/*--------------------------------
+-----------Domain Page------------
+--------------------------------*/
+
+@media only screen and (max-width: 991px){
+	.header-3{
+		background-attachment: fixed;
+	}
+	.domain-info h3{
+		font-size: 26px;
+	}
+	.domain-info h2{
+		font-size: 55px;
+	}
+	.domain-info p{
+		font-size: 15px;
+	}
+	.do-em{
+		padding-bottom: 50px;
+		width: 100%;
+	}
+	.white-info{
+		margin-bottom: 50px;
+	}
+	.trans-info{
+		padding: 0;
+		text-align: center;
+	}
+	.header-3 .banner-left h1{
+		font-size: 68px;
+        text-align: left;
+	}
+	.domin-img{
+	    width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+	.header-3 .banner-left h1{
+		font-size: 60px;
+	}
+	.domain-info h3{
+		font-size: 24px;
+	}
+	.domain-info h2{
+		font-size: 50px;
+	}
+	.domain-info p{
+		font-size: 14px;
+	}
+	.section-title h3{
+		font-size: 25px;
+	}
+	.section-title h2{
+		font-size: 46px;
+	}
+	.btn-link{
+		font-size: 18px;
+	}
+	.card-body{
+		font-size: 14px;
+	}
+	
+}
+
+@media only screen and (max-width: 570px){
+	.header-3 .banner-left h1{
+		font-size: 55px;
+	}
+	.domain-info h3{
+		font-size: 22px;
+	}
+	.domain-info h2{
+		font-size: 48px;
+	}
+	.btn-link{
+		font-size: 16px;
+	}
+	.card-body{
+		font-size: 13px;
+	}
+}
+
+/*--------------------------------
+-----------Domain Page------------
+--------------------------------*/
+
+@media only screen and (max-width: 991px){
+	.breadcrumbs{
+		bottom: 0;
+		top: 100px;
+	}
+
+	.header-4{
+		background-attachment: fixed;
+	}
+}
+
+@media only screen and(max-width: 768px) {
+	.banner-left h1{
+		font-size: 70px;
+	}
+	.including-text h4{
+		font-size: 23px;
+	}
+	.including-text p{
+		font-size: 15px;
+	}
+	
+}
+
+/*--------------------------------
+--------Webhosting Page-----------
+--------------------------------*/
+
+@media only screen and (max-width: 991px) {
+	.header-5{
+		background-attachment: fixed;
+	}
+	.header-5 .banner img{
+		width: unset;
+	}
+	.wrapper{
+		top: 74%;
+        left: 55%;
+        transform: translate(-55%,-74%);
+	}
+	.migrate-item .row{
+		width: 100%;
+		margin-bottom: 30px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+}
+
+@media only screen and (max-width: 768px){
+	.banner-left h1{
+		font-size: 70px;
+	}
+	.header-5 .banner img{
+		width: 100%;
+	}
+	.section-title h3{
+		font-size: 24px;
+	}
+	.section-title h2{
+		font-size: 45px;
+	}
+	.grow-2-item h3{
+		font-size: 26px;
+	}
+	.grow-2-item p{
+		font-size: 13px;
+	}
+	.grow-2-img{
+		margin: 0 auto;
+	}
+	.grow-2-img::before{
+		margin: 0 auto;
+	}
+	.wrapper{
+		top: 77%;
+		left: 48%;
+		transform: translate(-48%,-77%);
+	}
+	.migrate-item .right-img{
+		margin-left: 165px;
+		width: 55%;
+		margin-bottom: 30px;
+	}
+	.migrate-item .col-md-5{
+		margin-left: 165px;
+        margin-bottom: 30px;
+	}
+	.migrate-item .left-img{
+		width: 55%;
+        margin-left: 165px;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	.banner-left h1{
+		font-size: 55px;
+	}
+	.grow-2-item{
+		padding: 10px 10px;
+	}
+	.grow-2-item h3{
+		font-size: 24px;
+	}
+	.grow-2-item p{
+		font-size: 12px;
+		font-weight: 500;
+	}
+	.migrate-item .right-img{
+		margin-left: 114px;
+	}
+	.migrate-item .col-md-5{
+		margin-left: 114px;
+	}
+	.migrate-item h3{
+		font-size: 24px;
+	}
+	.migrate-item p{
+		font-size: 14px;
+	}
+	.migrate-item .left-img{
+		margin-left: 114px;
+	}
+}
+
+/*-----------------------------------------
+----------Reseller Hosting Page------------
+------------------------------------------*/
+
+@media only screen and (max-width: 992px){
+	.header-6{
+		background-attachment: fixed;
+	}
+	.grow-3-img img{
+		width: 100%;
+	}
+	.grow-2-item h3{
+		font-size: 26px;
+	}
+	.panel-content .panel-img{
+		width: 88%;
+		margin-left: 100px;
+	}
+
+}
+
+@media only screen and (max-width: 768px) {
+	.banner-left h1{
+		font-size: 61px;
+	}
+	.section-title h3{
+		font-size: 23px;
+	}
+	.grow-2-item h3{
+		font-size: 24px;
+	}
+	.domain-info h3{
+		font-size: 23px;
+	}
+	.domain-info h2{
+		font-size: 48px;
+	}
+	.including-text p{
+		font-size: 15px;
+	}
+	.res-signup-info p{
+		font-size: 23px;
+	}
+}
+
+@media only screen and (max-width: 575px){
+	.banner-left h1{
+		font-size: 44px;
+	}
+	.section-title h3{
+		font-size: 20px;
+	}
+	.section-title h2{
+		font-size: 40px;
+	}
+	.section-title p{
+		font-size: 13px;
+        font-weight: 400;
+	}
+	.grow-2-item h3{
+		font-size: 22px;
+	}
+	.domain-info h3{
+		font-size: 20px;
+	}
+	.domain-info h2{
+		font-size: 45px;
+	}
+	.domain-info p{
+		font-size: 13px;
+        font-weight: 400;
+	}
+	.profit-img{
+		width: 100%;
+	}
+	.including-text h4{
+		font-size: 22px;
+	}
+	.including-text p{
+		font-size: 14px;
+	}
+	.panel-content .panel-img{
+		margin-left: 50px;
+	}
+	.section-title h2{
+		font-size: 37px;
+	}
+	.res-signup-info p{
+		font-size: 20px;
+	}
+}
+
+/*-----------------------------------------
+-------------VPS - Hosting Page------------
+------------------------------------------*/
+
+@media only screen and (max-width: 991px) {
+	.header-7{
+		background-attachment: fixed;
+	}
+    .banner-left h1{
+    	font-size: 70px;
+    }
+    .banner img{
+    	width: unset;
+    } 
+}
+
+@media only screen and (max-width: 768px){
+	.banner-left h1{
+		font-size: 60px;
+	}
+	.banner img{
+    	width: 100%;
+    }
+    .table{
+    	font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+	.banner-left h1{
+		font-size: 40px;
+	}
+	.table{
+    	font-size: 12px;
+    }
+}
+
+/*-----------------------------------------
+---------------Support  Page---------------
+------------------------------------------*/
+
+@media only screen and (max-width: 992px){
+	.header-8 .support-img{
+		position: absolute;
+	    bottom: 0;
+	    right: 0;
+	    width: 34%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+	.banner-left h1{
+		font-size: 55px;
+	}
+	.section-title h3{
+		font-size: 22px;
+	}
+	.section-title h2{
+		font-size: 43px;
+	}
+	.support-item h3{
+		font-size: 22px;
+	}
+	.support-item p{
+		font-size: 16px;
+	}
+	.support-item .hero-btn{
+		padding: 5px 24px;
+	}
+	.banner-text h4{
+		font-size: 22px;
+	}
+	.banner-text p{
+		font-size: 15px;
+	}
+
+}
+
+@media only screen and (max-width: 575px) {
+      .banner-left h1 {
+	    font-size: 50px;
+	    text-align: ;
+	    padding-left: 20px;
+    }
+    .header-8 .support-img{
+    	display: none;
+    }
+    .section-title h3{
+    	font-size: 20px;
+    }
+    .section-title h2{
+    	font-size: 36px;
+    }
+}
+
+/*-----------------------------------------
+-------------Affilliate  Page--------------
+------------------------------------------*/
+
+@media only screen and (max-width: 992px){
+	.header-9{
+		background-attachment: fixed;
+		background-position: 36% 44%;
+	}
+	.affiliate-img{
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.domain-info h3{
+		font-size: 22px;
+	}
+	.domain-info h2{
+		font-size: 45px;
+	}
+	.section-title h2{
+		font-size: 40px;
+	}
+}
+
+@media only screen and (max-width: 575px){
+	.affi-info h3{
+		font-size: 22px;
+	}
+	.affi-info p{
+		font-size: 14px;
+	}
+	.domain-info h2{
+		font-size: 36px;
+	}
+	.section-title h2{
+		font-size: 36px;
+	}
+}
+
+/*-----------------------------------------
+----------------Blog  Page-----------------
+------------------------------------------*/
+
+@media only screen and (max-width: 992px){
+	.header-10{
+		background-attachment: fixed;
+	}
+
+}
+
+@media only screen and (max-width: 768px){
+	.banner-left h1{
+		font-size: 50px;
+	}
+	.blog-info h3{
+		font-size: 24px;
+	}
+	.blog-info span{
+		font-size: 13px;
+	}
+	.blog-info p{
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 575px){
+	.banner-left h1{
+		font-size: 45px;
+	}
+	.blog-info h3{
+		font-size: 23px;
+	}
+}
+
+/*-----------------------------------------
+---------------Contact  Page---------------
+------------------------------------------*/
+
+@media only screen and (max-width: 992px){
+	.banner-left h1{
+		font-size: 65px;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.banner-left h1{
+		font-size: 58px;
+	}
+	.contact-info-item{
+		padding: 15px 40px;
+	}
+	.contact-info-item i{
+		font-size: 48px;
+	}
+	.contact-info-item p{
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width: 575px){
+	.banner-left h1{
+		font-size: 42px;
+		padding-left: 0;
+	}
+	.contact-info-item i{
+		font-size: 45px;
+	}
+	.contact-info-item p{
+		font-size: 14px;
+	}
+	.contact-info-item {
+        padding: 10px 40px;
+    }
+    .section-title h2{
+    	font-size: 32px;
+    }
+
+}
+
+/*-----------------------------------------
+--------------Register  Page---------------
+------------------------------------------*/
+
+@media only screen and (max-width: 575px){
+	.register-item{
+		padding: 50px 20px;
+	}
+}
+
+/*-----------------------------------------
+----------------Error  Page---------------
+------------------------------------------*/
+
+@media only screen and (max-width: 575px){
+	.error-img{
+		width: 100%;
+	}
+}
+
+/*-------------------------------------------
+----------------Error Page----------------
+--------------------------------------------*/
